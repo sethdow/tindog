@@ -5,6 +5,25 @@
   <meta charset="utf-8">
   <title>TinDog</title>
   <link rel="stylesheet" href="css/styles.css">
+  <!-- CSS STYLESHEETS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- GOOGLE FONTS -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,900|Ubuntu&display=swap" rel="stylesheet">
+  <!-- AWESOME FONTS -->
+  <script src="https://kit.fontawesome.com/feb32175dd.js" crossorigin="anonymous"></script>
+  <!-- BOOTSTRAP SCRIPTS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
 </head>
 
 <body>
@@ -12,36 +31,81 @@
   <section id="title">
 
     <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+
+      <a class="navbar-brand" href="">tindog</a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#footer">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#pricing">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#title">Download</a>
+          </li>
+        </ul>
+
+      </div>
+    </nav>
 
 
 
 
     <!-- Title -->
 
-    <div>
-      <h1>Meet new and interesting dogs nearby.</h1>
-      <button type="button">Download</button>
-      <button type="button">Download</button>
-    </div>
-    <div>
-      <img src="images/iphone6.png" alt="iphone-mockup">
-    </div>
+    <div class="titleHeadAndImage row">
+      <div class="col-lg-6">
+        <h1 id="main-heading">Meet new and interesting dogs nearby.</h1>
+        <button type="button" class="btn btn-dark btn-lg myDownload-btn"><i class="fab fa-apple"></i>
+          Download</button>
+        <button type="button" class="btn btn-light btn-lg myDownload-btn"><i class="fab fa-google-play"></i>
+          Download</button>
+      </div>
 
-  </section>
+      <div class="myDoggyPhoneBox col-lg-6">
+        <img src="images/iphone6.png" class="myDoggyPhone" alt="iphone-mockup">
+      </div>
+    </div>
+  </div>
+</section>
+
 
 
   <!-- Features -->
 
   <section id="features">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm">
+          <i class="fas fa-check-circle fa-7x"></i>
+          <h3>Easy to use.</h3>
+          <p>So easy to use, even your dog could do it.</p>
+        </div>
+        <div class="col-sm">
+          <i class="fas fa-bullseye fa-7x"></i>
+          <h3>Elite Clientele</h3>
+          <p>We have all the dogs, the greatest dogs.</p>
+        </div>
+        <div class="col-sm">
+          <i class="fas fa-heart fa-7x"></i>
+          <h3>Guaranteed to work.</h3>
+          <p>Find the love of your dog's life or your money back.</p>
+        </div>
+      </div>
+    </div>
+    
 
-    <h3>Easy to use.</h3>
-    <p>So easy to use, even your dog could do it.</p>
+    
 
-    <h3>Elite Clientele</h3>
-    <p>We have all the dogs, the greatest dogs.</p>
-
-    <h3>Guaranteed to work.</h3>
-    <p>Find the love of your dog's life or your money back.</p>
+    
 
   </section>
 
